@@ -20,7 +20,7 @@ struct PinConfig {
   static const int RESET_BUTTON = 2;  // Reset button with pullup
 };
 
-// Network Configuration
+// Network Configuration  https://thingspeak.mathworks.com/channels/2786492/private_show
 struct NetworkConfig {
   static constexpr const char* WIFI_SSID = "Xiaomi 12T";
   static constexpr const char* WIFI_PASSWORD = "falachabt";
